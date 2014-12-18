@@ -1,0 +1,19 @@
+{
+    "name": "heimonsy/hipchat-laravel",
+    "description": "a hipchat laravel service provide",
+    "keywords": ["laravel", "hipchat", "service provide"],
+    "homepage": "https://github.com/heimonsy/hipchat-laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "heimonsy",
+            "email": "heimonsy@gmail.com",
+            "homepage": "http://heimonsy.com"
+        }
+    ],
+    "require": {
+        "gorkalaucirica/hipchat-v2-api-client": "~1.3",
+        "illuminate/support": "~4.2"
+    }
+}
