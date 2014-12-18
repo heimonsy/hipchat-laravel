@@ -8,7 +8,7 @@ class HipChatServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->bindShared(function ($app) {
+        $this->app->bindShared('hipchat', function ($app) {
             return new HipChat($app['config']['hipchat.token'], $app['config']['hipchat.room']);
         });
     }
